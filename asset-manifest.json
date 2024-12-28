@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/snake-game/static/css/main.1649410c.css",
-    "main.js": "/snake-game/static/js/main.ffa3628c.js",
-    "static/js/151.c5a32094.chunk.js": "/snake-game/static/js/151.c5a32094.chunk.js",
-    "index.html": "/snake-game/index.html",
-    "main.1649410c.css.map": "/snake-game/static/css/main.1649410c.css.map",
-    "main.ffa3628c.js.map": "/snake-game/static/js/main.ffa3628c.js.map",
-    "151.c5a32094.chunk.js.map": "/snake-game/static/js/151.c5a32094.chunk.js.map"
+    "main.css": "/snakegame/static/css/main.1649410c.css",
+    "main.js": "/snakegame/static/js/main.6e618776.js",
+    "static/js/151.c5a32094.chunk.js": "/snakegame/static/js/151.c5a32094.chunk.js",
+    "index.html": "/snakegame/index.html",
+    "main.1649410c.css.map": "/snakegame/static/css/main.1649410c.css.map",
+    "main.6e618776.js.map": "/snakegame/static/js/main.6e618776.js.map",
+    "151.c5a32094.chunk.js.map": "/snakegame/static/js/151.c5a32094.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1649410c.css",
-    "static/js/main.ffa3628c.js"
+    "static/js/main.6e618776.js"
   ]
 }
