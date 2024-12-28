@@ -1,0 +1,76 @@
+.game-container {
+  display: flex;
+  flex-direction: column; /* Arrange game grid, controls, and footer vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+  grid-template-rows: repeat(20, 20px);
+  gap: 1px;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+}
+
+.snake {
+  background-color: green;
+}
+
+.food {
+  background-color: red;
+}
+
+/* Footer styling */
+.footer {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+/* Controls container styling */
+.controls {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /* Increased gap between rows */
+}
+
+/* Control buttons layout */
+.control-row {
+  display: flex;
+  gap: 30px; /* Increased gap between buttons */
+}
+
+/* Extra-large control buttons */
+.control-button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 12px;
+  width: 120px; /* Extra width */
+  height: 120px; /* Extra height */
+  font-size: 32px; /* Larger font size */
+  font-weight: bold;
+  color: #282c34;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.control-button:hover {
+  background-color: #21a1f1;
+  transform: scale(1.1);
+}
+
+.control-button:active {
+  background-color: #1e90ff;
+}
